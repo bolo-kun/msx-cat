@@ -1,3 +1,5 @@
+Fixed wrong hole placement, reduced PCB size to make is cheaper to produce.
+
 # MSX Cartridge
 
 Some hardware specs (schematics + PCB designs) to build cartridges for MSX system.
