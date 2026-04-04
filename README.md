@@ -1,11 +1,11 @@
 PCB works for games up to 64kb (it's bits, so in bytes it's 8kB). Carts above 64kb aren't natively supported by MSX and need a mapper.
 
-Fixed wrong hole placement, reduced PCB size to make is cheaper to produce compared to the source project. 
-Chips the original project used are hard to get nowadays but AM29F010B works flawless for me, other 29F010 chips should work as well (first two letters stand for chip maker), W29EE011 should work as well but I haven't tried it yet.
+Fixed wrong hole placement, reduced PCB size to make is cheaper to produce, compared to the source project. 
+Chips the original project used are hard to get and pricey but W29EE011 and AM29F010B work flawless for me, other 29F010 chips should work as well (first two letters stand for chip maker)
 
-If you want to put it into a cartridge shell, you need to solder the EEPROM directly to the PCB as it won't with into the case with a DIP socket.
+If you want to put it into a cartridge shell, you need to solder the EEPROM directly to the PCB as it won't fit into the case with a DIP socket.
 
-For chips I mentioned you need to pad the rom file as shown below on linux bash or on windows using for example GIT Bash:
+For chips I mentioned you need to pad the rom file as shown below on linux bash or on windows using GIT-Bash:
 
 ```bash
 # 16kb:
