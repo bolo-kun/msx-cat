@@ -1,6 +1,7 @@
 PCB works for games up to 64kb (it's bits, so in bytes it's 8kB). Carts above 64kb aren't natively supported by MSX and need a mapper.
 
-Fixed wrong hole placement, reduced PCB size to make is cheaper to produce, compared to the source project. 
+Fixed wrong hole placement, reduced PCB size to make is cheaper to produce.
+
 Chips the original project used are hard to get and pricey but W29EE011 and AM29F010B work flawless for me, other 29F010 chips should work as well (first two letters stand for chip maker)
 
 If you want to put it into a cartridge shell, you need to solder the EEPROM directly to the PCB as it won't fit into the case with a DIP socket.
