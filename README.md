@@ -6,16 +6,16 @@ Chips the original project used are hard to get and pricey but W29EE011 and AM29
 
 If you want to put it into a cartridge shell, you need to solder the EEPROM directly to the PCB as it won't fit into the case with a DIP socket.
 
-For chips I mentioned you need to pad the rom file as shown below on linux bash or on windows using GIT-Bash:
+For chips I mentioned you need to pad the rom file as shown below on linux bash or on windows using [GIT-Bash](https://gitforwindows.org/):
 
 ```bash
-# 16kb:
+# 16kb game:
 cat rom16k.bin rom16k.bin rom16k.bin rom16k.bin rom16k.bin rom16k.bin rom16k.bin rom16k.bin > game128.bin
 
-# 32kb: 
+# 32kb game: 
 cat rom32k.bin rom32k.bin rom32k.bin rom32k.bin > game128.bin
 
-# 64kb:
+# 64kb game:
 cat rom64k.bin rom64k.bin > game128.bin
 ```
 
