@@ -1,4 +1,4 @@
-PCB works for games up to 64kB (512Mbit). Carts above 64kB aren't natively supported by MSX and need a mapper.
+PCB works for games up to 64kB (512Kbit). Carts above 64kB aren't natively supported by MSX and need a mapper.
 
 Fixed wrong hole placement, reduced PCB size to make is cheaper to produce.
 
